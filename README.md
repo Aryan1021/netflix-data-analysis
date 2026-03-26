@@ -25,15 +25,15 @@ This project analyzes Netflix's dataset to uncover insights about content distri
 
 ## 📂 Project Structure
 
+```text
 netflix-data-analysis
 │
 ├── data/
 ├── notebook/
-├── images/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-
+```
 
 ---
 
@@ -66,18 +66,19 @@ Download and place it inside the `data/` folder.
 ```bash
 pip install -r requirements.txt
 jupyter notebook
-📈 Future Improvements
-Build recommendation system
-Add dashboard using Power BI / Streamlit
-Apply machine learning models
-👨‍💻 Author
-
-Aryan Raj
-
+```
 
 ---
 
-# 📸 10.2 Save Visualizations (IMPORTANT)
+## 📈 Future Improvements
+
+- Build recommendation system
+- Add dashboard using Power BI / Streamlit
+- Apply machine learning models
+
+--- 
+
+## 📸 Save Visualizations
 
 In your notebook, save key plots:
 
@@ -85,11 +86,20 @@ Example:
 
 ```python
 plt.savefig("../images/movies_vs_tvshows.png")
+```
 
 Do this for:
 
-Movies vs TV Shows
-Top countries
-Growth over years
+- Movies vs TV Shows
+- Top countries
+- Growth over years
 
 👉 This makes your GitHub visually attractive
+
+---
+
+## 👨‍💻 Author
+
+Aryan Raj
+
+---
